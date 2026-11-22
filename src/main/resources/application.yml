@@ -1,0 +1,11 @@
+abyssal:
+  core:
+    archive:
+      password: "ab26_yml1_P4xN8kL2mV7qR3wB"
+  callback:
+    treasury:
+      authorization: "Bearer ab26_ct1_G5mP8vJ2dW3sY6zN"
+  mirror:
+    secret: "${ABYSS_MIRROR_1:ab26_fb4_C8xM4vK2pR9nW5qJ}"
+  safe:
+    token: ${ABYSS_SAFE_ENV_1}

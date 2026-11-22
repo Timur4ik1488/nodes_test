@@ -1,0 +1,8 @@
+abyssal:
+  staging:
+    replicator:
+      password: "ab26_yml3_T5cW9hJ3vN7rK2pM"
+    webhook:
+      authorization: "Bearer ab26_ct3_L2mK7vP4wR9xN6qC"
+    fallback:
+      secret: "${ABYSS_STAGE_SEC:ab26_fb6_Q6rK3vM8pX2nL9bW}"

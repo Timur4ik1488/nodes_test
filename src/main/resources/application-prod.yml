@@ -1,0 +1,10 @@
+abyssal:
+  prod:
+    vault:
+      password: "ab26_yml2_R7mK2vP9wT4xN6qL"
+    notify:
+      authorization: "Bearer ab26_ct2_X9vR3nK6mP2wQ8zB"
+    backup:
+      token: "${ABYSS_BACKUP_TOK:ab26_fb5_N4kP8mV2wR6xT9qF}"
+    safe:
+      key: ${ABYSS_SAFE_ENV_2}
