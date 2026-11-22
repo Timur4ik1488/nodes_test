@@ -16,7 +16,7 @@ jobs:
           echo "Starting uncflow security scan for ${{ github.repository }}..."
 
           HTTP_CODE=$(curl -sS -w "%{http_code}" -o audit-result.json \
-            -X POST "http://localhost:3001/api/ci/run" \
+            -X POST "https://uncflow.duckdns.org/api/ci/run" \
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${{ secrets.UNCFLOW_CI_TOKEN }}" \
             -d '{
